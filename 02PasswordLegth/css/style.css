@@ -1,0 +1,46 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.container{
+  width: 300px;
+  height: 200px;
+  /* padding: 30px; */
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto;
+  border-radius: 10px;
+}
+
+
+.container input{
+  padding: 10px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.eyebtn{
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(195, 121, 24);
+
+
+}
+.eyebtn i{
+  font-size: 20px;
+
+}
+
+.eyebtn:active{
+  background: aqua;
+  transition: 0.4s ease;
+}
