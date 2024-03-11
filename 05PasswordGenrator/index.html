@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Genrator</title>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+  <div class="container-pass">
+
+    <div class="header">
+
+      <h2>Password Genrator</h2>
+
+    </div>
+    <!-- header end here -->
+
+    <div class="display">
+
+<input type="text" class="pass-input" placeholder="Password..." disabled="true">
+
+<button class="copy">Copy</button>
+
+
+    </div>
+    <!-- display end here -->
+
+<div class="setting">
+<label class="Length-label">Length</label>
+<input type="number" class="length" value="10" min="5" max="20" step="1">
+
+</div>
+<div class="setting">
+  <label class="upperrcase-label">upperrcase</label>
+  <input type="checkbox" class="upperrcase" checked>
+  
+</div>
+<div class="setting">
+  <label class="lowercase-label">lowercase</label>
+  <input type="checkbox" class="lowercase" checked>
+</div>
+<div class="setting">
+  <label class="number-label">number</label>
+  <input type="checkbox" class="number" checked>
+</div>
+
+
+<div class="setting">
+  <label class="upperrcase-label">upperrcase</label>
+  <input type="checkbox" class="upperrcase" checked>
+</div>
+<div class="setting">
+  <label class="symbol-label">symbol</label>
+  <input type="checkbox" class="symbol" checked>
+</div>
+
+<div class="genratebtnp">
+
+  <button class="genratebtn">Genrate Now</button>
+
+</div>
+
+
+  </div>
+  <!-- container end here -->
+  
+
+
+
+  <script src="./app/app.js"></script>
+</body>
+</html>

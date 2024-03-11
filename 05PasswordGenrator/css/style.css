@@ -1,0 +1,101 @@
+
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+
+}
+
+
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.container-pass{
+
+border: 1px solid black;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+text-align: center;
+width: 350px;
+background: white;
+color: black;
+overflow: hidden;
+padding: 10px;
+}
+
+.header{
+  background: blue;
+  color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+
+}
+
+
+.display{
+
+  width: 100%;
+  margin-bottom: 5px;
+/* display/: flex; */
+position: relative;
+
+}
+
+.pass-input{
+/* flex-grow: 1; */
+border: none;
+width: 70%;
+outline: none;
+padding: 15px;
+font-size: large;
+font-weight: bold;
+
+
+}
+
+.copy{
+  position: absolute;
+  top:5px;
+  right: 30px; 
+  color: white;
+  background: blue;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: larger;
+
+}
+
+.setting{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   padding: 10px 5px;
+
+}
+
+
+.genratebtnp{
+}
+
+
+.genratebtn{
+  width: 100%;
+  background: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-weight: 600;
+  border-radius: 6px;
+
+}
