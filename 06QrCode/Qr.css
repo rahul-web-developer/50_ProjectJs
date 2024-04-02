@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+  background: #000;
+}
+
+.container{
+  background: white
+  ;
+  width: 300px;
+  height: 500px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ gap: 10px;
+ color: black;
+ text-transform: capitalize;
+ padding: 10px;
+ border-radius: 10px;
+ box-shadow: 0 0 10px rgba(232, 10, 10, 0.9);
+}
+
+input{
+  padding: 5px;
+  outline: none;
+
+}
+
+button{
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  background: aqua;
+}
+
+#qrboxshow{
+  /* background: blue; */
+  width: 250px;
+  height: 250px;
+margin-top: 50px;
+border-radius: 10px;
+}
+
+#qrcodeimg{
+  width: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
